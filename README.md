@@ -5,7 +5,7 @@ The following is the main source of this repo:
 ```c
 #ifndef _FAST_READ_FAST_WRITE_
 #define _FAST_READ_FAST_WRITE_
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS // Visual Studio
 #include <stdio.h>
 
 char buf[1 << 20], *p1, *p2;
